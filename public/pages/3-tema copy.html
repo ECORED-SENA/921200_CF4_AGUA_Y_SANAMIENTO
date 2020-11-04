@@ -1,0 +1,558 @@
+<div class="container">
+    <div class="header-ecored">
+        <h1>3. Captación de agua</h1>
+    </div>
+    <div class="jumbotron bg-white">
+        <p>Una de las primeras etapas en el proceso de potabilización de agua consiste en la captación de ésta a través de diferentes sistemas que son seleccionados y configurados, acorde a las características propias de la fuente de captación y requerimientos de suministro.</p>
+        <p>Esto involucra una serie de conocimientos necesarios para abordar de la manera más efectiva cada actividad, que van desde algunos principios básicos de hidráulica, hasta reconocer los sistemas de captación y su funcionamiento.</p>
+        <div class="sub-ecored mt-5" id="31">
+            <h2>3.1 Conceptos básicos de hidráulica </h2>
+        </div>
+        <div class="teme-line mt-5">
+            <h3>Sistemas de unidades y conversión</h3>
+        </div>
+        <p>Recordemos que uno de los puntos de partida para trabajar cualquier problema que involucre magnitudes es definir el sistema de unidades en el que se trabajará; ya vimos que la referencia estándar para unidades de medida a nivel mundial es el Sistema Internacional de Unidades [SI], que parte del uso de las magnitudes fundamentales: longitud, tiempo, masa, fuerza, y sus unidades bases, que son respectivamente: metro, segundo, kilogramo y newton; a partir de las cuales se derivan las demás (Mott, 2006, p. 4).</p>
+        <p>También se mencionó que aparte del sistema internacional de unidades, es posible emplear otras unidades y sistemas para expresar las medidas, este es el caso del sistema tradicional de unidades de Estados Unidos, también conocido como Sistema gravitacional de unidades inglesas, en el que las unidades para las magnitudes de longitud, tiempo, fuerza y masa son respectivamente el pie, segundo, libra y slug (Mott, 2006, p. 5).</p>
+        <p>Para la operación matemática de las diferentes magnitudes se requiere emplear factores de conversión que permitan pasar de múltiplos a submúltiplos y viceversa, al igual que el cambio de otras unidades que no sean del SI. Es entonces donde se debe realizar la respectiva conversión de unidades para obtener al final las correctas dimensiones.</p>
+        <p>La conversión de unidades se logra mediante el uso de factores de conversión, que indican la relación entre una cantidad expresada en diferentes unidades, como por ejemplo:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img14.svg" />
+        <p>En todos los casos, para aplicar el factor de conversión se deben ordenar las unidades de tal manera que puedan ser canceladas para obtener la unidad esperada.</p>
+        <p>Ejemplo 1. Al abrir una válvula ubicada en una tubería se permite el paso de 1,2 L/s. ¿Cuántos m3/día pasan por el sistema?</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img15.svg" />
+        <p>Ejemplo 2. Un operario abre una válvula durante 8 horas al día, permitiendo el flujo de 1,2 L/s. ¿Cuántos m3/día pasan por el sistema?</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img16.svg" />
+        <p>Nótese que en el ejemplo dos fue necesario incluir un factor de conversión adicional, ya que en este caso, la válvula solo abre una fracción del tiempo (8 horas).</p>
+        <p>Generalmente se emplean tablas para conocer los factores de conversión, sin embargo, hoy es posible el uso de aplicaciones web o aplicaciones que se pueden descargar en los dispositivos móviles, y presentan datos aceptables.</p>
+        <div class="teme-line mt-5">
+            <h3>Presión </h3>
+        </div>
+        <p>Se puede definir la presión como la cantidad de fuerza que se ejerce sobre un área determinada. Esto se representa mediante la ecuación p=F/A, sus unidades son N/m (Mott, 2006, p. 12).</p><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img17.svg" />
+        <div class="header-arrow py-4 my-5">
+            <h3 class="text-center">Existen dos principios conocidos como leyes de Pascal, que enuncian lo siguiente: </h3>
+        </div>
+        <div class="row justify-content-center align-items-center mt-5">
+            <div class="col-12 col-md-6"><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img18.svg" /></div>
+            <div class="col-12 col-md-6"> <img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img19.svg" /></div>
+        </div>
+        <div class="row justify-content-center align-items-center mt-3">
+            <div class="col-12 col-md-6">
+                <p class="color-1 py-4 px-4">La presión actúa de modo uniforme en todas las direcciones de un volumen pequeño de fluido. </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <p class="color-1 py-4 px-4">En un fluido confinado por fronteras sólidas, la presión actúa de manera perpendicular a la pared. </p>
+            </div>
+        </div>
+        <div class="teme-line mt-5">
+            <h3>Presión </h3>
+        </div>
+        <p>La tasa de flujo permite expresar la cantidad de fluido en función del tiempo. Mott (2006) indica que se pueden emplear tres términos diferentes:</p>
+        <p>El flujo volumétrico (Q) es el volumen de un fluido que circula en una sección por unidad de tiempo. Se calcula con la siguiente ecuación:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img20.svg" />
+        <p>donde <i><strong>A</strong></i> es el área de la sección y v es la velocidad promedio del fluido. En el SI sus unidades son m3/s.</p>
+        <p>El flujo en peso (W) es el peso de un fluido que circula en una sección por unidad de tiempo. Se calcula con la siguiente ecuación:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img21.svg" />
+        <p>donde <i><strong>γ</strong></i> es el peso específico del fluido. Sus unidades son N/s</p>
+        <p>El flujo másico (M) es la masa de un fluido que circula en una sección por unidad de tiempo</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img22.svg" />
+        <p>donde <i><strong>ρ</strong></i> es la densidad del fluido. Sus unidades son kg/s </p>
+        <div class="teme-line mt-5">
+            <h3>Densidad, gravedad y peso específico </h3>
+        </div>
+        <p>Estas tres propiedades se relacionan al volumen del fluido. En el caso de la densidad, indica la relación entre la masa de una sustancia y su volumen. Generalmente la densidad se denota con la letra griega ρ (rho), y su ecuación es: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img23.svg" />
+        <p>Las unidades de la densidad en el SI son el kg/m<sup>3</sup>. La densidad del agua varía en función de la temperatura, y alcanza su mayor valor a los 4 °C. </p>
+        <p>Recordemos que relacionado a la masa se encuentra el peso. Es así como el peso específico indica la cantidad de peso por unidad de volumen de la sustancia, así:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img24.svg" />
+        <p>El peso específico se representa por la letra griega <i><strong>γ</strong></i>(gamma), y su unidad son los newtons por metro cúbico (N/m<sup>3</sup>).</p>
+        <p>Para el caso de la gravedad específica, usaremos como fluido de referencia el agua a 4°C, y puede definirse de dos maneras:</p>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Es la razón de la densidad de una sustancia a la densidad del agua a 4°C </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img25.svg" />
+            </div>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Es la razón del peso específico de una sustancia al peso específico del agua a 4°C</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img26.svg" />
+            </div>
+        </div>
+        <div class="teme-line mt-5">
+            <h3>Principio de continuidad</h3>
+        </div>
+        <p>Considere un ducto como el de la imagen, en el que se cuenta con dos secciones de diferente diámetro, que son atravesadas por un fluido. El flujo es constante, es decir, que en cualquier sección la cantidad de fluido que circula en determinado tiempo es similar (no sale, ingresa o se almacena fluido). Es posible expresar lo descrito en términos de flujo másico así (Mott,2006, p. 156):</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img27.svg" /><img class="img-a mb-5 img-fluid" src="assets/images/pages/ilustraciones/img28.svg" />
+        <p>Retomando el tema de flujo másico, este puede expresarse como el producto de la densidad por el flujo volumétrico <i><strong>M=ρQ</strong></i>, por lo tanto,</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img29.svg" />
+        <p>si la densidad del fluido se mantiene constante es posible reducir la ecuación a la expresión <i><strong>Q<sub>1</sub>=Q<sub>2</sub></strong></i>. Como <i><strong>Q=Av</strong></i>, entonces finalmente la ecuación puede ser expresada como: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img30.svg" />
+        <p>Esta ecuación resume el principio de continuidad y permite calcular, por ejemplo, la velocidad del fluido en un sistema de conducción cerrado, como una tubería. </p>
+        <div class="teme-line mt-5">
+            <h3>Altura piezométrica</h3>
+        </div>
+        <p>Corresponde a la altura o nivel que alcanzará el agua en un tubo piezométrico. Si se suman las alturas en cada punto, se obtiene la línea piezométrica, la cual coincide con la línea de energía del fluido. Lo anterior se observa en la siguiente imagen: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img31.svg" />
+        <div class="teme-line mt-5">
+            <h3>Conservación de la energía - Ecuación de Bernoulli</h3>
+        </div><img class="img-a mb-5 img-fluid" src="assets/images/pages/ilustraciones/img32.svg" />
+        <p>El movimiento de un fluido a través de un sistema se encuentra asociado a la energía que este posee, dependiendo así de tres variables: velocidad, la presión del sistema y la elevación. A partir de estas variables, el matemático Daniel Bernoulli, en 1738, plantea un teorema que involucra estas tres formas de energía mediante la siguiente ecuación (Mott, 2006, p. 156):</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img33.svg" />
+        <p>Esta ecuación es conocida como la ecuación de Bernoulli y cada término es una forma de energía, como ya se mencionó. Sin embargo, se debe tener en cuenta que debido a la unidad resultante (m), estos tres términos pueden ser interpretados como altura sobre un nivel de referencia. Mott (2006) indica que, en específico.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img34.svg" />
+        <p>A la suma de estos tres términos se les conoce como carga total.</p>
+        <div class="header-arrow py-4 my-5">
+            <h3 class="text-center">La aplicación de esta ecuación permite determinar los valores de carga de presión, carga de elevación y variación en la carga de velocidad, a medida que este circula a través del sistema. Sin embargo, las siguientes son limitaciones que se deben tener en cuenta: </h3>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p> Es válida solo para fluidos incompresibles, pues supone que el peso específico (<i><strong>γ</strong></i>) no varía entre las dos secciones de interés. </p>
+            </div>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>No puede haber dispositivos entre las dos secciones que ingresen o retiren energía. La ecuación establece que la energía en el fluido es constante. </p>
+            </div>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>No puede haber transferencia de calor hacia el fluido o fuera de este.</p>
+            </div>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>No puede haber pérdida de energía por fricción. </p>
+            </div>
+        </div>
+        <div class="sub-ecored mt-5" id="32">
+            <h2>3.2 Parámetros de calidad del agua.</h2>
+        </div><img class="img-a mb-5 img-fluid" src="assets/images/pages/ilustraciones/img35.svg" />
+        <p>Existen diversos parámetros que son empleados para definir la calidad del agua, acorde al uso para el cual se destinará. Así mismo, se encuentran los estándares, que consisten en reglas o niveles de tolerancia fijados por las autoridades ambientales, y con base en los cuales se verifica el cumplimiento o no de los parámetros evaluados (García, 1998, p. 159).</p>
+        <p>Es así como la Resolución 2115 de 2007, establece los valores permisibles que deben ser tenidos en cuenta en el agua para consumo humano. A continuación se presentan algunos aspectos relevantes de las características establecidas en la resolución anterior, a partir de lo expuesto por la OMS en su publicación Guías para la calidad del agua de consumo humano (OMS, 2011, pp. 257-268):</p>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Color y olor: el sabor y el olor pueden tener su origen en contaminantes químicos naturales, orgánicos e inorgánicos, y de fuentes o procesos biológicos (ej., microorganismos acuáticos), o en la contaminación debida a sustancias químicas sintéticas, o pueden ser el resultado de la corrosión o del tratamiento del agua (ej., la cloración). El sabor y el olor también pueden desarrollarse durante el almacenamiento y la distribución, como resultado de la actividad microbiana.</p>
+                <p>Algunas sustancias que constituyen un peligro para la salud tienen efectos sobre el sabor, olor o aspecto del agua de uso y consumo humano, que normalmente conllevarían al rechazo del agua en concentraciones considerablemente menores que aquellas que representan un problema para la salud.</p>
+            </div>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Microorganismos: la mayoría de las bacterias patógenas que pueden ser transmitidas por el agua infectan el tracto gastrointestinal y son excretadas en las heces de las personas o animales infectados. No obstante, hay también algunas bacterias patógenas transmitidas por el agua, como Legionella, Burkholderia pseudomallei y micobacterias atípicas, que pueden crecer en el agua y en el suelo. Las vías de transmisión de estas bacterias incluyen la inhalación y el contacto (al bañarse) y pueden producir infecciones en el tracto respiratorio, lesiones en la piel o en el cerebro. </p>
+            </div>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Sustancias químicas: la mayoría de las sustancias químicas presentes en el agua de consumo humano son potencialmente peligrosas para la salud sólo después de una exposición prolongada (durante años, más que meses).</p>
+                <p>Son pocas las sustancias químicas con efectos generalizados comprobados sobre la salud de las personas, como consecuencia de la exposición cuando están presentes en cantidades excesivas en el agua de consumo humano. Entre ellas se incluyen el fluoruro, el arsénico y el nitrato. También se ha comprobado en algunas zonas, efectos sobre la salud de las personas asociados al plomo. El hierro y el manganeso generan preocupación generalizada, debido a sus efectos en la aceptabilidad del agua. </p>
+            </div>
+        </div>
+        <div class="sub-ecored mt-5" id="33">
+            <h2>3.3 Aforo de caudal</h2>
+        </div>
+        <p>Cuando se abordó el tema de conceptos básicos de hidráulica, se mencionó que la cantidad de un fluido que atraviesa una sección en un determinado tiempo es conocido como la tasa de flujo. En particular, el flujo volumétrico (Q) es el volumen de un fluido que circula en una sección por unidad de tiempo, y sus unidades son el m3/s.</p>
+        <p>Para la medición del caudal es posible aplicar diferentes métodos que pueden ser seleccionados en función de las características del flujo, tecnología disponible y exactitud de los datos requerida.</p>
+        <p>De acuerdo al protocolo de monitoreo del agua (IDEAM, 2017, p.178), para la medición del caudal en una corriente se han desarrollado diversos métodos de aforo que se aplican según el tamaño del cauce, la magnitud del caudal, las características hidráulicas del flujo, la necesidad de contar con datos inmediatos o a corto plazo y, en general, las dificultades para realizar el aforo, entre otros. </p>
+        <div class="header-arrow py-3 my-5">
+            <h3 class="text-center">Entre los métodos encontramos:</h3>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Método Área-Velocidad </p>
+            </div>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Método volumétrico </p>
+            </div>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Método con trazadores (dilución)</p>
+            </div>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Estructuras aforadas </p>
+            </div>
+        </div>
+        <div class="teme-line mt-5">
+            <h3>Métodos área velocidad.</h3>
+        </div>
+        <p>Dado que el caudal es función del área de la sección ocupada por el agua y la velocidad media del flujo, este procedimiento se basa en la determinación de estas variables. Este sistema de aforo es el de mayor uso y requiere que el flujo tenga un comportamiento laminar y que las líneas de flujo sean normales a la sección transversal de aforo.</p>
+        <p>El caudal en una corriente de agua es función del área de la sección de aforos y de la velocidad media del flujo y se obtiene mediante el producto de estas dos variables:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img36.svg" />
+        <p>Si la geometría del perfil de la sección de aforos no se modifica, la velocidad mantiene su comportamiento horizontal y en profundidad; por el contrario, si la geometría cambia, se altera la relación nivel - área, en consecuencia, la velocidad cambia su comportamiento.</p>
+        <div class="header-arrow py-4 my-5">
+            <h3 class="text-center">El método de área-velocidad se realiza con diferentes métodos de aforo: </h3>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Molinete Hidrométrico (vadeo, suspensión, angular, bote cautivo, lancha en movimiento). </p>
+            </div>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Aforo con flotadores. </p>
+            </div>
+        </div>
+        <div class="list mt-3">
+            <div class="list__item">
+                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+            </div>
+            <div class="list__txt">
+                <p>Aforo ADCP (Acoustic Doppler Current Profiler).</p>
+            </div>
+        </div>
+        <p>La medición de caudales a través del método área-velocidad, se determina a través de la selección de número de vértices, determinación del ancho, determinación de la profundidad, cálculo del área, medición de la velocidad, cálculo del área y caudal. Lo anterior se puede representar mediante la siguiente imagen: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img37.svg" />
+        <section><a class="media-link" href="https://www.wmo.int/pages/prog/hwrp/publications/guide/spanish/168_Vol_I_es.pdf" target="_blank"> <img class="media-link-icon" src="assets/images/pages/ilustraciones/pdf.svg" alt="" />
+                <div class="media-link-title">
+                    <p class="text-small">Fuente: Organización Meteorológica Mundial, OMM. (2011). Vista del área de una cuenca por sección transversal. [Ilustración]. p. 1.5-5.</p>
+                </div>
+            </a></section>
+        <p class="mt-5">La profundidad del flujo en la sección transversal se mide en las verticales mediante una varilla o hilo de sondeo. Al tiempo que se mide la profundidad, se efectúan observaciones de la velocidad mediante un molinete en uno o más puntos de la vertical. Las anchuras, profundidades y velocidades medidas permiten calcular el caudal para cada segmento de la sección transversal. La suma de estos caudales parciales será el caudal total (OMM, 2011). </p>
+        <div class="sub-title-1 mt-5">
+            <h3>Molinete hidrométrico. </h3>
+        </div>
+        <p>Teniendo en cuenta las diferentes alternativas de medir el caudal, se determina el tipo de aforo con molinete hidrométrico (vadeo, suspensión, angular, bote cautivo, lancha en movimiento) que mejor se ajuste a las condiciones existentes, en el momento de la campaña de monitoreo, específicamente la magnitud de la profundidad, el ancho, la velocidad, la disposición de estructuras de apoyo como puentes o tarabitas y el tipo de régimen de caudales predominante. </p>
+        <div class="sub-title-1 mt-5">
+            <h3>Aforo por vadeo. </h3>
+        </div>
+        <p>Se utiliza cuando la profundidad es menor de un metro (< 1 m) y la velocidad de la corriente menor de un metro por segundo (< 1 m/s). Estas condiciones permiten que los operarios y los equipos se metan al cauce con seguridad, garantizando de esta manera que la medición se realice con comodidad y sin riesgo.</p>
+                <div class="sub-title-1 mt-5">
+                    <h3>Aforo por suspensión. </h3>
+                </div>
+                <p>Cuando las condiciones del flujo (profundidad y/o velocidad) presentan amenaza para los operarios y equipos, es necesario realizar las mediciones desde un puente o una tarabita. Aquí los equipos van suspendidos desde un malacate o torno, a través de un cable coaxial, que adicionalmente sirve para medir la profundidad en las diferentes abscisas de medición. </p>
+                <div class="sub-title-1 mt-5">
+                    <h3>Aforo en bote cautivo. </h3>
+                </div>
+                <p>Aplicable en ríos o canales medianos, donde es posible tender una manila o cable de orilla a orilla, que sirve de apoyo a la embarcación para contrarrestar el empuje de la corriente. </p>
+                <div class="sub-title-1 mt-5">
+                    <h3>Aforo con flotadores.</h3>
+                </div>
+                <p>Se utiliza cuando se requiere medir en forma rápida el caudal en una corriente que presenta una lámina de pocos centímetros de profundidad, cuando se esté en presencia de grandes cantidades de material en suspensión, o cuando deba efectuarse una medición del caudal en un período muy breve. Para lo cual se mide la velocidad superficial a lo ancho del cauce, utilizando flotadores especialmente diseñados y suministrados para este efecto.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img38.svg" />
+                <div class="sub-title-1">
+                    <h3>Aforo ADCP (Acoustic Doppler Current Profiler).</h3>
+                </div>
+                <p>Se utiliza para medir el caudal en ríos grandes o pequeños, sin rocas grandes que permitan el desplazamiento horizontal del equipo para medir el caudal.</p>
+                <p>Los instrumentos ADCP, basados en el efecto Doppler, pueden instalarse en una embarcación en movimiento. El instrumento mide simultáneamente la velocidad y profundidad del agua y la trayectoria de la embarcación para calcular el caudal. Este método permite calcular el caudal parcial a medida que la embarcación atraviesa el río. El resultado de una medición no es suficiente para proporcionar un valor exacto del flujo/caudal; únicamente proporciona una imagen instantánea del flujo. Para conseguir un valor más exacto del caudal del río es importante calcular el promedio de varias travesías. Para calcular el caudal en un emplazamiento se recomienda efectuar, como mínimo, cuatro travesías (OMM, 2011)</p>
+                <p>El ADCP utiliza el efecto Doppler, transmitiendo sonido a una frecuencia fija y escuchando los ecos retornados por los reflectores presentes en el agua, como pequeñas partículas o plancton, que reflejan el sonido hacia el ADCP, los cuales se mueven a la misma velocidad horizontal del agua. La siguiente imagen representa una medición mediante el método ADCP:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img39.svg" />
+                <p>Cuando el sonido enviado por el ADCP llega a los reflectores, este se desplaza a una mayor frecuencia debido al efecto Doppler; este desplazamiento frecuencial es proporcional a la velocidad relativa entre el ADCP y los reflectores. Parte de este sonido desplazado es reflejado hacia el ADCP, donde se recibe desplazado una segunda vez. Los archivos generados por el equipo pueden llevarse las gráficas a impresión a Excel mediante el software del equipo, así como la tabla de trayectos para plotear el aforo. </p>
+                <div class="teme-line mt-5">
+                    <h3>Método volumétrico</h3>
+                </div>
+                <p>uando se trate de medir caudales pequeños en condiciones que no permitan el uso del molinete, o no se cuente con este equipo, se utiliza el aforo volumétrico, que consiste sencillamente en recolectar en un recipiente previamente calibrado, un volumen de agua conocido y tomar con precisión el tiempo de recolección, preferiblemente con cronómetro. </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img40.svg" />
+                <p>Se recomienda utilizarlo en corrientes pequeñas, en las cuales se pueda colectar en un recipiente calibrado el 100% del flujo a medir. La calibración del recipiente y el tiempo de recolección deben ser muy precisos para garantizar la buena calidad de la medición del caudal. </p>
+                <p>Para tal efecto, se recurre a recipientes de uso común como un balde o caneca que tenga registros de volumen; en otros casos, el aforo se realiza en tanques de mayor tamaño que tengan dimensiones precisas, de tal manera que mediante la medición de un diferencial de nivel se determina un incremento de volumen y tomando el tiempo de incremento de volumen se puede calcular directamente el caudal que lleva la corriente o el canal (IDEAM, 2007, p. 43).</p>
+                <div class="sub-title mt-5">
+                    <h3>Método con trazadores (dilución)</h3>
+                </div>
+                <p>La medición del caudal mediante este método está basada en la determinación del grado de dilución en el agua, de la corriente de una solución del trazador vertida en ella. Este método se recomienda utilizar para secciones de aforo donde se encuentren grandes turbulencias y remolinos, régimen torrencial, altas pendientes, poca profundidad, lechos inestables y líneas de flujo desordenadas. Los aforos con trazadores, también llamados aforos químicos, permiten conocer el caudal a partir de la variación de concentración de una sustancia inyectada en el cauce que permite estudiar su comportamiento y evolución (IDEAM, 2017, p. 184).</p>
+                <p>El procedimiento consiste en inyectar un trazador en una sección de la corriente y realizar aguas abajo, a una distancia lo suficientemente lejos para que haya dilución total, mediciones de conductividad eléctrica para detectar el paso de la nube y así calcular el caudal (IDEAM, 2007, p. 51).</p>
+                <p>Los trazadores deben cumplir con una serie de características como lo son la solubilidad, posibilidad de medición in situ, costo reducido, no contaminante, entre otros. EL trazador empleado para la aplicación del método no debe estar presente en el cuerpo de agua en cantidades apreciables. Algunos de los más empleados en la práctica son el cloruro de sodio y el dicromato de sodio.</p>
+                <div class="sub-title mt-5">
+                    <h3>Estructuras aforadas</h3>
+                </div>
+                <p>Son estructuras que han sido estudiadas y calibradas en diferentes condiciones experimentales. Para cada una de ellas es posible obtener una ecuación de descarga (relación Nivel-Caudal) que permite determinar el caudal instantáneo en función de la altura de la lámina de agua con respecto a un punto de la estructura, que se mide con ayuda de una mira o un instrumento registrador. </p>
+                <div class="header-arrow py-4 my-5">
+                    <h3 class="text-center">A continuación se presentan las estructuras más utilizadas (IDEAM, 2017, pp. 188-190): </h3>
+                </div>
+                <div class="sub-title-1 mt-5">
+                    <h3>Vertederos</h3>
+                </div>
+                <p>Son dispositivos hidráulicos, fijos o removibles, que consisten en una escotadura a través de la cual se hace circular el flujo que se quiere medir en el canal o corriente natural. La precisión del aforo depende de la velocidad de llegada a la estructura, por lo tanto, es importante remansar el agua, ampliando la sección del canal arriba del sitio para obtener velocidades mínimas (< 0,15 m/s). Existen diferentes tipos de vertederos: </p>
+                        <div class="row justify-content-center align-items-stretch mt-5">
+                            <div class="col-12 col-md-3 card-color mx-2 my-2 px-5 py-5">
+                                <p>Vertedero rectangular: puede ocupar total o parcialmente el ancho del canal, presentando contracciones laterales que reducen la longitud efectiva de la cresta, y en consecuencia el caudal medido por pérdidas por rozamiento. </p>
+                            </div>
+                            <div class="col-12 col-md-3 card-color-2 mx-2 my-2 px-5 py-5">
+                                <p>Vertedero trapezoidal (Cipolletti): se construye con paredes laterales inclinadas en una relación 1 horizontal a 4 vertical.</p>
+                            </div>
+                            <div class="col-12 col-md-3 card-color mx-2 my-2 px-5 py-5">
+                                <p>Vertedero triangular: se recomienda para medición de caudales pequeños, siendo en particular conveniente para medición de caudales muy fluctuantes. Los más utilizados son los de escotadura, con ángulo de 90° y 60°. </p>
+                            </div>
+                        </div>
+                        <p class="mt-5">La instalación de vertederos para la medición del caudal presenta, entre otras ventajas, la medición instantánea, estructuras de fácil construcción, no se obstruyen fácilmente, y larga vida útil. </p>
+                        <div class="sub-title-1 mt-5">
+                            <h3>Canaletas</h3>
+                        </div>
+                        <p>Son estructuras de gran aplicación en terrenos planos, ya que funcionan a flujo libre con pérdidas de carga pequeñas. Las canaletas más utilizadas son: </p>
+                        <div class="row justify-content-center align-items-stretch mt-5">
+                            <div class="col-12 col-md-5 card-color mx-2 my-2 px-5 py-5">
+                                <p>Tipo Balloffet: se caracteriza por tener paredes paralelas y fondo plano, por lo cual se hace extremadamente fácil su construcción, posee características de solidez y resistencia a las condiciones de campo. </p>
+                            </div>
+                            <div class="col-12 col-md-5 card-color-2 mx-2 my-2 px-5 py-5">
+                                <p>Medidor sin cuello (cutthroat): consiste principalmente en una sección de entrada, una sección de salida, una garganta y un fondo aforador. El caudal (Q) del aforador se obtiene midiendo las profundidades de flujo aguas arriba Ha y aguas abajo Hb de la garganta. </p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-stretch">
+                            <div class="col-10 card-color mx-2 my-2 px-5 py-5">
+                                <p>Canaleta Parshall: está conformada por tres secciones principales: una sección convergente de contracción, que se localiza en su extremo aguas arriba, una garganta y una sección divergente o expansión aguas abajo. Para determinar el caudal se dispone de dos medidores de profundidad (Ha y Hb), los cuales se calibran colocando la cota "cero" coincidiendo con la cota de la cresta del canal (sección convergente). Opera como un dispositivo de cabeza sencilla con mínima pérdida de energía, por lo cual se utiliza en canales poco profundos y con escasa pendiente. </p>
+                            </div>
+                        </div>
+                        <div class="header-arrow my-4 my-5">
+                            <h3 class="text-center">En la siguiente tabla se presentan los equipos empleados para los métodos descritos: Equipos empleados según método de aforo</h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img41.svg" />
+                        <div class="jumbotron mt-5">
+                            <p>La base normativa sobre los métodos de medición de caudal es:</p>
+                            <div class="list mt-3">
+                                <div class="list__item">
+                                    <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p>NTC 3933. Método estándar para medición de flujo de agua en canal abierto con canaleta Parshall. </p>
+                                </div>
+                            </div>
+                            <div class="list mt-3">
+                                <div class="list__item">
+                                    <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p>NTC 3705. Medición de flujo de agua en canal abierto con vertederos de placa fina. </p>
+                                </div>
+                            </div>
+                            <section class="mt-5"><a class="media-link" href="http://biblioteca.sena.edu.co/paginas/bases.html" target="_blank"> <img class="media-link-icon" src="assets/images/pages/ilustraciones/pdf.svg" alt="" />
+                                    <div class="media-link-title">
+                                        <p class="text-small">Debe ingresar a biblioteca SENA, ir a ICONTEC y buscar norma NTC 3833 y allí seleccionar NTC 3933:2007 / NTC 3705:2007 </p>
+                                    </div>
+                                </a></section>
+                        </div>
+                        <div class="sub-ecored mt-5" id="34">
+                            <h2>3.4 Sistemas de captación </h2>
+                        </div>
+                        <p>De acuerdo con el Reglamento técnico del sector de Agua potable y Saneamiento básico [RAS], la captación se realiza a través de un conjunto de estructuras, equipos, materiales, procesos, operaciones y recurso humano, para tomar agua de una fuente de suministro, tratarla y distribuirla en condiciones potables.</p>
+                        <p>Las fuentes de suministro deben permitir dotar a la población de la cantidad de agua necesaria, teniendo en cuenta criterios técnicos, económicos y ambientales. </p>
+                        <div class="header-arrow py-4 my-5">
+                            <h3>Tomando como base la información suministrada en el tema de abastecimiento de agua, es posible hacer referencia a las siguientes fuentes en función de su origen:</h3>
+                        </div>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-10">
+                                <div class="card-media color-2">
+                                    <div class="card-media__body">
+                                        <figure class="card__figure"><img class="img-fluid" src="assets/images/pages/ilustraciones/img42.svg" /></figure>
+                                        <p>Superficiales: ríos, quebradas, lagos, lagunas y embalses de almacenamiento y excepcionalmente aguas lluvias y agua de mar </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <div class="card-media color-2">
+                                    <div class="card-media__body">
+                                        <figure class="card__figure"><img class="img-fluid" src="assets/images/pages/ilustraciones/img43.svg" /></figure>
+                                        <p>Subterráneas: pueden ser subsuperficiales o subálveas y acuíferos. La explotación de las aguas subterráneas puede realizarse mediante pozos profundos, pozos excavados, manantiales o galerías de filtración. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <div class="card-media color-2">
+                                    <div class="card-media__body">
+                                        <figure class="card__figure"><img class="img-fluid" src="assets/images/pages/ilustraciones/img44.svg" /></figure>
+                                        <p>Atmosféricas: constituidas principalmente por precipitaciones o lluvias. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>La captación puede involucrar el uso de una sola fuente o su combinación, para lo cual es necesario tener en cuenta la calidad y continuidad de suministro. A continuación se presenta, de manera general, algunas de las ventajas y desventajas relacionadas con el uso de las fuentes superficiales y subterráneas: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img45.svg" />
+                        <div class="header-arrow py-4 my-5">
+                            <h3>Las estructuras de captación pueden hacer uso de dos principios para su funcionamiento, así: </h3>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                            </div>
+                            <div class="list__txt">
+                                <p>Gravedad: empleada cuando la estructura de captación y conducción se ubican por debajo de la cota de la fuente de abastecimiento. </p>
+                            </div>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                            </div>
+                            <div class="list__txt">
+                                <p>Bombeo: empleada cuando la estructura de captación y conducción se ubican por encima de la cota de la fuente de abastecimiento. </p>
+                            </div>
+                        </div>
+                        <div class="header-arrow py-4 my-5">
+                            <h3>En el título B del RAS se establecen las condiciones generales para los diferentes tipos de captación (pp. 62-65):</h3>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                            </div>
+                            <div class="list__txt">
+                                <p>Toma lateral: aconsejable en el caso de ríos caudalosos de gran pendiente y con reducidas variaciones de nivel a lo largo del período hidrológico. En este tipo de captación la estructura se debe ubicar en la orilla y a una altura conveniente sobre el fondo, teniendo en cuenta que el nivel de aguas mínimo en épocas de estiaje debe permitir captar el caudal de diseño. </p>
+                            </div>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                            </div>
+                            <div class="list__txt">
+                                <p>Toma sumergida: aconsejable en el caso de cursos de agua con márgenes muy extendidos, y navegables. La toma debe instalarse de modo que no se dificulte la navegación presente en el curso de agua. </p>
+                            </div>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                            </div>
+                            <div class="list__txt">
+                                <p>Captación flotante con elevación mecánica: si la fuente de agua superficial tiene variaciones considerables de nivel, pero conserva en aguas mínimas un caudal o volumen importante, por economía debe proyectarse la captación sobre una estructura flotante anclada al fondo o a una de las orillas. </p>
+                            </div>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                            </div>
+                            <div class="list__txt">
+                                <p>Captación móvil con elevación mecánica: en ríos de gran caudal, que tengan variaciones estacionales de niveles importantes durante el período hidrológico, por economía debe proyectarse la captación sobre una plataforma móvil que se apoye en rieles inclinados en la orilla del río y que sea accionada por poleas diferenciales fijas. </p>
+                            </div>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                            </div>
+                            <div class="list__txt">
+                                <p>Captación mixta: si la fuente tiene variaciones considerables de caudal y además el cauce presenta cambios frecuentes de curso o es inestable, debe estudiarse y analizarse la conveniencia de una captación mixta, que opere a la vez como captación sumergida y captación lateral. </p>
+                            </div>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                            </div>
+                            <div class="list__txt">
+                                <p>Toma de rejilla: este tipo de toma debe utilizarse en el caso de ríos de zonas montañosas, cuando se cuente con una buena cimentación o terrenos rocosos y en el caso de variaciones sustanciales del caudal en pequeños cursos de agua. Este tipo de captación consiste en una estructura estable de variadas formas; la más común es la rectangular. La estructura, ya sea en canal o con tubos perforados localizados en el fondo del cauce, debe estar localizada perpendicularmente a la dirección de la corriente y debe estar provista con una rejilla metálica para retener materiales de acarreo de cierto tamaño. </p>
+                            </div>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                            </div>
+                            <div class="list__txt">
+                                <p>Presa de derivación: este tipo de captación de aguas superficiales es aconsejable, por razones económicas, en aquellos cursos de agua superficial preferiblemente angostos y cuando se presentan épocas muy prolongadas de niveles de caudal bajo en el río. La presa tiene como objeto elevar el nivel de agua de modo que éste garantice una altura adecuada y constante sobre la bocatoma. </p>
+                            </div>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                            </div>
+                            <div class="list__txt">
+                                <p>Cámara de toma directa: este tipo de captación se recomienda para el caso de pequeños ríos de llanura, cuando el nivel de aguas en éstos es estable durante todo el período hidrológico. </p>
+                            </div>
+                        </div>
+                        <div class="list mt-3">
+                            <div class="list__item">
+                                <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                            </div>
+                            <div class="list__txt">
+                                <p>Muelle de toma: esta captación se recomienda en el caso de ríos con variaciones sustanciales del nivel del agua y cuando se pueden aprovechar obras costaneras ya existentes, como muelles, puentes, etc. </p>
+                            </div>
+                        </div>
+                        <p class="mt-5">Como regla general se establece que las estructuras de captación funcionen con el mínimo de mantenimiento. De igual manera, este debe ser riguroso e incluye generalmente limpieza, verificación y mantenimiento de válvulas y compuertas empleadas en la regulación del caudal.</p>
+                        <p>En el caso del sistema por bombeo se contempla la verificación y mantenimiento preventivo de instalaciones y equipos como:</p>
+                        <div class="row justify-content-center align-items-stretch mt-5">
+                            <div class="col-12 col-md-5">
+                                <div class="list mt-3">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>Bombas </p>
+                                    </div>
+                                </div>
+                                <div class="list mt-3">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>Motores</p>
+                                    </div>
+                                </div>
+                                <div class="list mt-3">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>Arrancadores</p>
+                                    </div>
+                                </div>
+                                <div class="list mt-3">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>Tableros de control </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5">
+                                <div class="list mt-3">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>Transformadores </p>
+                                    </div>
+                                </div>
+                                <div class="list mt-3">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>Válvulas</p>
+                                    </div>
+                                </div>
+                                <div class="list mt-3">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>Tuberías de succión e impulsión</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-5">En ambos casos los sistemas de captación deben estar dotados de rejillas o cribas que impidan el arrastre de material grueso que pueda estar presente en la fuente de abastecimiento, requiriendo su remoción en las actividades de limpieza programadas.</p>
+                        <p>La frecuencia de mantenimiento debe ser establecida acorde a las características de la fuente de captación y en todos los casos es necesario llevar el registro de las actividades de verificación y mantenimientos realizados, al igual que el oportuno reporte de novedades presentadas.</p>
+                        <div class="jumbotron">
+                            <p>Para más detalle sobre sistemas de captación se recomienda revisar el siguiente material complementario:</p>
+                            <div class="list mt-3">
+                                <div class="list__item">
+                                    <div class="list__item__icon"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/v1.svg" /></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p>Reglamento técnico del sector de Agua potable y Saneamiento básico [RAS], Titulo B. </p>
+                                </div>
+                            </div>
+                            <section class="mt-5"><a class="media-link" href="http://www.minvivienda.gov.co/viceministerios/viceministerio-de-agua/reglamento-tecnico-del-sector/manuales" target="_blank"> <img class="media-link-icon" src="assets/images/pages/ilustraciones/pdf.svg" alt="" />
+                                    <div class="media-link-title">
+                                        <p class="text-small">Revisar el Título B, sistemas de acueductos, ingresando a la página del Ministerio de Vivienda, Reglamento técnico del sector Agua potable y Saneamiento, el enlace adjunto, y dar clic en el recuadro que indica Título B, sistemas de acueducto. </p>
+                                    </div>
+                                </a></section>
+                        </div>
+    </div>
+</div>

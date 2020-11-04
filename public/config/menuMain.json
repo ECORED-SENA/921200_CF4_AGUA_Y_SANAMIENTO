@@ -1,0 +1,106 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "reflexion",
+    "title": "1. Reflexión sobre nuestro papel en el planeta",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/1-tema.html"
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "abastecimiento",
+    "title": "2. Abastecimiento de agua",
+    "breadcrumb": ["Inicio","tema 2"],
+    "path": "pages/2-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "abastecimiento",
+        "title": "2.1 Conceptos asociados al tema de cuenca",
+        "anchor": "21"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "abastecimiento",
+        "title": "2.2 Planes de ordenamiento y manejo de cuencas",
+        "anchor": "22"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "abastecimiento",
+        "title": "2.3 Normatividad y reglamentación del sector de agua potable y saneamiento básico",
+        "anchor": "23"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "sistemas",
+    "title": "3. Sistemas de captación",
+    "breadcrumb": ["Inicio","tema 3"],
+    "path": "pages/3-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "sistemas",
+        "title": "3.1 Conceptos básicos de hidráulica",
+        "anchor": "31"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "sistemas",
+        "title": "3.2 Parámetros de calidad del agua",
+        "anchor": "32"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "sistemas",
+        "title": "3.3 Aforo de caudal",
+        "anchor": "33"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "sistemas",
+        "title": "3.4 Sistemas de captación",
+        "anchor": "34"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "muestreo",
+    "title": "4. Muestreo y medición",
+    "breadcrumb": ["Inicio","tema 3"],
+    "path": "pages/4-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "muestreo",
+        "title": "4.1 Procedimientos de muestreo",
+        "anchor": "41"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "muestreo",
+        "title": "4.2 Reporte de eventos",
+        "anchor": "42"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "muestreo",
+        "title": "4.3 Registro de información",
+        "anchor": "43"
+      }
+    ]
+  }
+]
