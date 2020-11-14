@@ -5,7 +5,7 @@
     <path id="Trazado_31229" data-name="Trazado 31229" d="M6426.354,7396.557h42.987" transform="translate(-5963 1300)" fill="none" stroke="#00223d" stroke-width="2"/>
     <text id="Y" transform="translate(475 8716)" fill="#00223d" font-size="20" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">y</tspan></text>
     <text id="_" data-name="+" transform="translate(514 8700)" fill="#00223d" font-size="20" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">+</tspan></text>
-    <text id="Z1" transform="translate(536 8700)" fill="#00223d" font-size="20" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">Z</tspan><tspan y="0" font-size="15">1</tspan></text>
+    <text id="z1" transform="translate(536 8700)" fill="#00223d" font-size="20" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">z</tspan><tspan y="0" font-size="15">1</tspan></text>
     <text id="_2" data-name="+" transform="translate(567 8700)" fill="#00223d" font-size="20" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">+</tspan></text>
     <path id="Trazado_31230" data-name="Trazado 31230" d="M6426.354,7396.557h42.987" transform="translate(-5837 1300)" fill="none" stroke="#00223d" stroke-width="2"/>
     <text id="v1" transform="translate(600 8688)" fill="#00223d" font-size="20" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">v</tspan><tspan y="0" font-size="15">1</tspan></text>
